@@ -26,7 +26,7 @@ El sistema opera mediante un flujo de procesamiento secuencial diseñado para tr
 
 ## 📊 Evaluación y Resultados del Modelo
 
-Para evaluar el desempeño del clasificador se utilizó una **Matriz de Confusión**, la cual permite visualizar la precisión de la predicción frente a las etiquetas reales del dataset (*Astro*, *Cala*, *Carlos*, *Mich*):
+Para evaluar el desempeño del clasificador se utilizó una **Matriz de Confusión**, la cual permite visualizar la precisión de la predicción frente a las etiquetas reales del dataset (*Astro*, *Cala*, *Carlos*, *Mich*).
 
 ### 📈 Análisis de la Matriz de Confusión:
 <p align="center">
