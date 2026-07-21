@@ -16,6 +16,28 @@ Este proyecto aplica técnicas de **Procesamiento Digital de Señales (DSP)** y 
 * **Librerías de Audio & DSP:** `librosa`, `pydub`, `scipy`, `numpy`, `matplotlib`
 * **Machine Learning:** `scikit-learn` (`SVC`, `train_test_split`, `LabelEncoder`)
 * **Herramientas del Sistema:** `ffmpeg`, `opus-tools`
+  
+## 📋 Sistema y resultdos 
+
+El sistema opera mediante un flujo de procesamiento secuencial diseñado para transformar señales de audio crudas en vectores de características altamente discriminativos antes de la etapa de clasificación:
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9b23a2c5-6ce6-4eec-8b1d-df69a545733c" />
+
+### 📊 Evaluación y Resultados del Modelo
+
+Para evaluar el desempeño del clasificador se utilizó una **Matriz de Confusión**, la cual permite visualizar la precisión de la predicción frente a las etiquetas reales del dataset (*Astro*, *Cala*, *Carlos*, *Mich*):
+
+#### 📈 Análisis de la Matriz de Confusión:
+<img width="533" height="438" alt="image" src="https://github.com/user-attachments/assets/27c96e25-9157-4e14-8a69-9f7210b51140" />
+* **Alta Precisión en Clases Principales:** El modelo demuestra un desempeño sobresaliente en la identificación de la mayoría de las categorías (destacando *Astro* con un 100% de aciertos en sus muestras de prueba).
+* **Diagonal Dominante:** La concentración de la mayor densidad de muestras sobre la diagonal principal confirma la efectividad de la extracción de características basadas en MFCC y el filtrado previo.
+* **Métricas Globales:**
+  * **Exactitud (Accuracy):** ~92.8%
+  * **Pérdida (Loss):** ~0.26
+* **Robustez frente al Ruido:** Gracias al filtrado pasabanda Butterworth previo a la etapa de feature extraction, el modelo reduce significativamente los solapamientos entre clases con registros de voz de tono similar.
+
+
+
+
 
 ## 📋 Estructura del Código
 
