@@ -28,6 +28,7 @@ Para evaluar el desempeño del clasificador se utilizó una **Matriz de Confusi�
 
 #### 📈 Análisis de la Matriz de Confusión:
 <img width="533" height="438" alt="image" src="https://github.com/user-attachments/assets/27c96e25-9157-4e14-8a69-9f7210b51140" />
+
 * **Alta Precisión en Clases Principales:** El modelo demuestra un desempeño sobresaliente en la identificación de la mayoría de las categorías (destacando *Astro* con un 100% de aciertos en sus muestras de prueba).
 * **Diagonal Dominante:** La concentración de la mayor densidad de muestras sobre la diagonal principal confirma la efectividad de la extracción de características basadas en MFCC y el filtrado previo.
 * **Métricas Globales:**
