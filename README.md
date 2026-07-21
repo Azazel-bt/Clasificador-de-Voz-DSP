@@ -20,13 +20,15 @@ Este proyecto aplica técnicas de **Procesamiento Digital de Señales (DSP)** y 
 ## 📋 Sistema y resultdos 
 
 El sistema opera mediante un flujo de procesamiento secuencial diseñado para transformar señales de audio crudas en vectores de características altamente discriminativos antes de la etapa de clasificación:
+<p align="center">
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9b23a2c5-6ce6-4eec-8b1d-df69a545733c" />
+</p>
 
-### 📊 Evaluación y Resultados del Modelo
+## 📊 Evaluación y Resultados del Modelo
 
 Para evaluar el desempeño del clasificador se utilizó una **Matriz de Confusión**, la cual permite visualizar la precisión de la predicción frente a las etiquetas reales del dataset (*Astro*, *Cala*, *Carlos*, *Mich*):
 
-#### 📈 Análisis de la Matriz de Confusión:
+### 📈 Análisis de la Matriz de Confusión:
 <p align="center">
   <img width="533" height="438" alt="image" src="https://github.com/user-attachments/assets/27c96e25-9157-4e14-8a69-9f7210b51140" />
 </p>
